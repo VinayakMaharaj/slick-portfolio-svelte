@@ -3,27 +3,40 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Bachelor of Science Computer Science and Statistics',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Toronto Canada',
+		logo: Assets.UofT,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'University of Toronto',
+		period: { from: new Date(2021, 9, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: [
+			'Javascript',
+			'HTML',
+			'CSS',
+			'Python',
+			'Java',
+			'Machine Learning',
+			'Data Science',
+			'Deep Learning',
+			'C',
+			'Data Structures and Algorithms',
+			'Linear Algebra',
+			'Calculus'
+		]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Maths and Computer Science',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Trinidad and Tobago',
+		logo: Assets.PCC,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Presentation College Chaguanas',
+		period: { from: new Date(2014, 9, 1), to: new Date(2021, 7, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['Software Engineering', 'C', 'Data Structures', 'Pascal']
 	}
 ];

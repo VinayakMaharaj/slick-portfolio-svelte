@@ -31,50 +31,26 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.GitHub;
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
-		case Platform.StackOverflow:
-			return Icons.StackOverflow;
-		case Platform.Facebook:
-			return Icons.Facebook;
+
 		case Platform.Email:
 			return Icons.Email;
-		case Platform.Twitter:
-			return Icons.Twitter;
-		case Platform.Youtube:
-			return Icons.Youtube;
 	}
 };
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
-	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+	name: 'Vinayak',
+	lastName: 'Maharaj',
+	description: '',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/VinayakMaharaj' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/vinayak-maharaj/'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
-		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'rvinayakcpa@gmail.com'
 		}
 	]
 };
@@ -96,7 +72,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: './Vinayak_Maharaj_Resume_test.pdf'
 };
 
 export const SEARCH: SearchPageParams = {

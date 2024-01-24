@@ -11,57 +11,164 @@ const MY_SKILLS = [
 	s({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.JavaScript,
 		name: 'Javascript'
 	}),
 	s({
 		slug: 'ts',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.TypeScript,
 		name: 'Typescript'
 	}),
 	s({
 		slug: 'css',
 		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.CSS,
 		name: 'CSS'
 	}),
 	s({
 		slug: 'html',
 		color: 'orange',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.HTML,
 		name: 'HTML'
 	}),
 	s({
 		slug: 'sass',
 		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.Sass,
 		name: 'Sass'
 	}),
 	s({
 		slug: 'reactjs',
 		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.ReactJs,
 		name: 'React Js'
 	}),
 	s({
 		slug: 'svelte',
 		color: 'orange',
-		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte'
+	}),
+	s({
+		slug: 'vuejs',
+		color: 'green',
+		logo: Assets.VueJs,
+		name: 'Vue Js'
+	}),
+	s({
+		slug: 'nodejs',
+		color: 'green',
+		logo: Assets.NodeJs,
+		name: 'Node Js'
+	}),
+	s({
+		slug: 'expressjs',
+		color: 'green',
+		logo: Assets.ExpressJs,
+		name: 'Express Js'
+	}),
+	s({
+		slug: 'docker',
+		color: 'blue',
+		logo: Assets.Docker,
+		name: 'Docker'
+	}),
+	s({
+		slug: 'go',
+		color: 'blue',
+		logo: Assets.Go,
+		name: 'Go'
+	}),
+	s({
+		slug: 'python',
+		color: 'blue',
+		logo: Assets.Python,
+		name: 'Python'
+	}),
+	s({
+		slug: 'mongodb',
+		color: 'green',
+		logo: Assets.MongoDB,
+		name: 'MongoDB'
+	}),
+	s({
+		slug: 'postgres',
+		color: 'blue',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL'
+	}),
+	s({
+		slug: 'graphql',
+		color: 'pink',
+		logo: Assets.GraphQL,
+		name: 'GraphQL'
+	}),
+	s({
+		slug: 'nextjs',
+		color: 'black',
+		logo: Assets.NextJs,
+		name: 'Next Js'
+	}),
+	s({
+		slug: 'tailwind',
+		color: 'blue',
+		logo: Assets.Tailwind,
+		name: 'Tailwind'
+	}),
+	s({
+		slug: 'vite',
+		color: 'blue',
+		logo: Assets.Vite,
+		name: 'Vite'
+	}),
+	s({
+		slug: 'java',
+		color: 'orange',
+		logo: Assets.Java,
+		name: 'Java'
+	}),
+	s({
+		slug: 'pandas',
+		color: 'white',
+		logo: Assets.Pandas,
+		name: 'Pandas'
+	}),
+	s({
+		slug: 'numpy',
+		color: 'white',
+		logo: Assets.Numpy,
+		name: 'Numpy'
+	}),
+	s({
+		slug: 'C',
+		color: 'blue',
+		logo: Assets.C,
+		name: 'C'
+	}),
+	s({
+		slug: 'bootrap',
+		color: 'purple',
+		logo: Assets.Bootstrap,
+		name: 'Bootstrap'
+	}),
+	s({
+		slug: 'assembly',
+		color: 'blue',
+		logo: Assets.Assembly,
+		name: 'Assembly'
+	}),
+	s({
+		slug: 'stripe',
+		color: 'red',
+		logo: Assets.Stripe,
+		name: 'Stripe'
+	}),
+	s({
+		slug: 'clerk',
+		color: 'blue',
+		logo: Assets.Clerk,
+		name: 'Clerk'
 	})
 ];
 

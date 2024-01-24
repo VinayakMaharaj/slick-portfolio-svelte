@@ -70,7 +70,15 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	UofT: a('utoronto.png'),
+	PCC: a('PCC.png'),
+	GraphQL: a('GraphQL_Logo.svg'),
+	NextJs: a('nextjs-icon-svgrepo-com.svg'),
+	Assembly: a('AssemblyScript_logo_2020.svg'),
+	Stripe: a('stripe.svg'),
+	Clerk: a('clerk.svg'),
+	Amnevar: a('Amnevar.jpg')
 };
 
 export default Assets;

@@ -40,7 +40,7 @@ export interface IconLink extends Link {
 	icon: Asset;
 }
 
-export interface Skill extends Omit<Item, 'shortDescription'> {
+export interface Skill extends Omit<Item, 'shortDescription' | 'description'> {
 	color: string;
 }
 
